@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Project Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Quize App to practice Typescript with React
 
-## Available Scripts
+### From
 
-In the project directory, you can run:
+YouTube: React / Typescript Tutorial - Build a Quiz
+App
 
-### `npm start`
+FreeCodeCamp.org
+by Weibenfalk
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Video:
+https://www.youtube.com/watch?v=F2JCjVSZlG0&list=PL41PQx5PPbt6OheJQkg-QNROfx9j75MuR
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Presenter:
+https://www.youtube.com/c/Weibenfalk
 
-### `npm test`
+GitHub:
+https://github.com/weibenfalk/react-quiz/blob/master/src/API.ts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Creation
 
-### `npm run build`
+```
+npx create-react-app <name of app> --template typescript
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install styled-components @types/styled-components
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### API Resources
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open Trivia Database
+https://opentdb.com/
